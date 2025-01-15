@@ -47,10 +47,13 @@ hr {
     padding: 0 0.5rem;
 }
 
+/* navigation */
+
 .navigation {
     background-color: var(--primary-color);
     color: white;
     padding: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
 }
 
 .navigation .link {
@@ -59,4 +62,31 @@ hr {
 
 .navigation ul {
     text-align: right;
+}
+
+.nav-brand {
+    font-weight: bold;
+}
+
+.navigation .active-pill {
+    font-weight: bold;
+}
+
+/* header */ 
+.hero {
+    padding: 2rem;
+}
+
+.hero .hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    text-align: center;
+}
+
+.hero .hero-concentrate {
+    color: var(--primary-color);
 }
