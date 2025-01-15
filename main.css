@@ -2,6 +2,7 @@
 
 :root {
     --primary-color: #262626;
+    --off-white: #e5e7eb;
 }
 
 body {
@@ -89,4 +90,13 @@ hr {
 
 .hero .hero-concentrate {
     color: var(--primary-color);
+}
+
+/* section */
+.section {
+    padding: 1rem;
+}
+
+.off-white {
+    background-color: var(--off-white);
 }
