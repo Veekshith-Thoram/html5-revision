@@ -107,8 +107,26 @@ hr {
 .footer{
     text-align: center;
     padding: 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    border-top-right-radius: 0.5rem;
 }
 
 .footer ul {
     padding-inline-start: 0px;
+}
+
+.footer a {
+    color: white;
+}
+
+.primary-link:hover {
+    background-color: white;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+}
+
+.secondary-link:hover {
+    background-color: var(--primary-color);
+    color: white;
 }
