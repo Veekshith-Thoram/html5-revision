@@ -100,3 +100,14 @@ hr {
 .off-white {
     background-color: var(--off-white);
 }
+
+/* footer */
+
+.footer{
+    text-align: center;
+    padding: 1rem;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
