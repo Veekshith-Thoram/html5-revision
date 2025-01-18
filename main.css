@@ -3,6 +3,7 @@
 :root {
     --primary-color: #262626;
     --off-white: #e5e7eb;
+    --non-black-text: #4b5563;
 }
 
 body {
@@ -129,4 +130,8 @@ hr {
 .secondary-link:hover {
     background-color: var(--primary-color);
     color: white;
+}
+
+.non-black-text {
+    color: var(--non-black-text);
 }
